@@ -1,0 +1,11 @@
+[repository]
+name = "hyprstatus"
+authors = ["smiley"]
+
+[hyprstatus]
+description = "A status bar drawn by the compositor"
+authors = ["smiley"]
+output = "hyprstatus.so"
+build = [
+    "make all",
+]
